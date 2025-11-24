@@ -1,4 +1,5 @@
 File-Naming Automation Tool
+
 A command-line utility for automated, customizable, and robust batch file renaming—especially helpful for organizing chronologically sensitive files like photographs and documents. Built with Python, this tool streamlines large-scale file management by extracting file metadata and embedding it into filenames in a human-readable, consistent format.​
 
 Features
@@ -70,4 +71,5 @@ References
 Python 3 official documentation (os, datetime, argparse)​
 
 Author: Tanay Shrivastava
+
 Date: 24th November 2025
