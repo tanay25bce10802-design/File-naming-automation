@@ -22,7 +22,9 @@ Libraries: os, argparse, datetime (all standard Python modules)​
 
 Usage
 bash
+
 python tool.py date -f <folder_path> -df <date_format> [-p <prefix>] [-s <suffix>] [-m]
+
 -f <folder_path>: Directory containing files to rename
 
 -df <date_format>: Date/time format (e.g., %Y%m%d_%H%M%S)
@@ -36,8 +38,11 @@ python tool.py date -f <folder_path> -df <date_format> [-p <prefix>] [-s <suffix
 Examples:
 
 bash
+
 python tool.py date -f ./photos -df "%Y-%m-%d_%H-%M-%S"
+
 python tool.py date -f ./docs -df "%Y%m%d" -p "project" -s "final" -m
+
 Functional Overview
 Requirement	Description
 Date-Based Renaming	Uses file metadata timestamps to rename files​
